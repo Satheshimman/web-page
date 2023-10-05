@@ -1,6 +1,48 @@
 @media(max-width:768px){
-	.d-none{
-		display:none;
+
+	#sec-1{
+		background-color: white;
+	}
+	nav{
+		flex-direction:column !important;
+	}
+	
+	nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	.nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	ul{
+		text-align:center;
+		padding:0;
+		
+	}
+	.navroww{
+		display: block;
+	}
+	
+	
+	.showmenu{
+		display: none;
+	}
+	.navsm p{
+		
+		text-align: center;
+	}
+	.logo{
+		
+		align-self:flex-start;
+		margin:10px 0px 0px 30px;
+	}
+	
+	.menu{
+		display:block;
+		position:absolute;
+		right:15px;
+		top:42px;
 	}
 	
 	.con-od-2{
@@ -20,8 +62,11 @@
 		margin:20px;
 	}
 	
-	.sec-9-content-1{
+	.sec-9-content-1 ul li a{
 		padding:8px 0;
+		display: block;
+		text-align: left;
+		margin-left: 10px;
 	}
 	
 	
@@ -86,14 +131,64 @@
 	padding:0 15px;
 }
 	
+.card-1 {
 	
+	text-decoration:none;
+	background-color:#32cd32a3;
+	color:white;
+	padding: 30px 20px;
+}
 }
 
 
 @media(min-width:768px) and (max-width:992px){
+	.card-1 {
 	
-	.d-none{
-		display:none;
+		text-decoration:none;
+		background-color:#32cd32a3;
+		color:white;
+		padding: 30px 20px;
+	}
+	#sec-1{
+		background-color: white;
+	}
+	nav{
+		flex-direction:column !important;
+	}
+	
+	nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	.nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	ul{
+		text-align:center;
+		padding:0;
+		
+	}
+	
+
+	
+
+	
+	.navsm p{
+		text-align: center;
+		
+	}
+	.logo{
+		
+		align-self:flex-start;
+		margin:10px 0px 0px 30px;
+	}
+	
+	.menu{
+		display:block;
+		position:absolute;
+		right:15px;
+		top:42px;
 	}
 	
 	.con-od-2{
@@ -113,8 +208,11 @@
 		margin:20px;
 	}
 	
-	.sec-9-content-1{
+	.sec-9-content-1 ul li a{
 		padding:8px 0;
+		display: block;
+		text-align: left;
+		margin-left: 10px;
 	}
 	
 	
@@ -183,4 +281,4 @@
 }
 
 	
-}
+

@@ -75,7 +75,12 @@ box-sizing:border-box;
 	display:flex;
 	flex-wrap:wrap;
 }
-
+.navrow{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: start;
+}
 .row-1{
 	display:flex;
 	flex-wrap:wrap;
@@ -83,6 +88,83 @@ box-sizing:border-box;
 	align-items:center;
 	
 }
+
+nav{
+	background-color:white;
+	font-size:20px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}	
+	
+nav li{
+	display:inline-block;
+	margin:0px 10px;
+}
+nav li:hover li{
+	color:green;
+}
+.logo{
+	font-size:36px;
+	
+}
+
+.logo h1{
+	color:rgb(7, 247, 7);
+	font-size: 50px;
+
+}
+
+
+nav a:hover{
+	color:green;
+}
+
+
+.line{
+	background-color:black;
+	height:5px;
+	width:34px;
+	margin-bottom:8px;
+	margin-right:40px;
+	
+	
+}
+.navroww{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.menu{
+	cursor:pointer;
+    display:none;
+}
+
+.showmenu{
+	display:block;
+	
+	transition:all  1.5s ease-in-out;
+	
+
+
+}
+
+.navsm{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navsm p{
+	background-color: #29cc61;
+	padding:20px 30px;
+	display: inline-block;
+	border-radius: 80px;
+}
+
 
 .flex{
 	display:flex;
@@ -251,12 +333,11 @@ color:white;
 
 
 .card-1 {
-	width:30%;
-	text-decoration:none;
-	padding:30px 20px;
 	
+	text-decoration:none;
 	background-color:#32cd32a3;
 	color:white;
+	padding: 30px 20px;
 }
 
 .card-1-a{
@@ -573,10 +654,14 @@ padding:20px 0;}
 .sec-9-input a{
 	
 	background-color:limegreen;
-	padding:12px 10px;
+	padding:10px 10px;
 	text-align:center;
 	border-radius:50px;
 	color:white;
+	position: absolute;
+	top:-1px;
+	right:-3px;
+
 	
 }
 
@@ -585,6 +670,7 @@ padding:20px 0;}
 	border:1px solid black;
 	padding:5px 0px;
 	border-radius:50px;
+	position: relative;
 }
 
 .sec-9-input input{
