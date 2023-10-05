@@ -169,14 +169,20 @@
 		padding:0;
 		
 	}
+	.navroww{
+		display: block;
+	}
 	
-
 	
-
-	
+	.showmenu{
+		display: none;
+	}
+	.navsm{
+		display: none;
+	}
 	.navsm p{
-		text-align: center;
 		
+		text-align: center;
 	}
 	.logo{
 		
@@ -190,6 +196,7 @@
 		right:15px;
 		top:42px;
 	}
+	
 	
 	.con-od-2{
 		order:1;
@@ -281,4 +288,68 @@
 }
 
 	
+@media(min-width:992px) and (max-width:1217px){
+	.card-1 {
+	
+		text-decoration:none;
+		background-color:#32cd32a3;
+		color:white;
+		padding: 30px 20px;
+	}
+	#sec-1{
+		background-color: white;
+	}
+	nav{
+		flex-direction:column !important;
+	}
+	
+	nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	.nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	ul{
+		text-align:center;
+		padding:0;
+		
+	}
+	.navroww{
+		display: block;
+	}
+	
+	
+	.showmenu{
+		display: none;
+	}
+	.navsm{
+		display: block;
+	}
+	.navsm p{
+		
+		text-align: center;
+	}
+	.logo{
+		
+		align-self:flex-start;
+		margin:10px 0px 0px 30px;
+	}
+	
+	.menu{
+		display:block;
+		position:absolute;
+		right:15px;
+		top:42px;
+	}
+
+	.sec-9-content-1 ul li a{
+		padding:8px 0;
+		display: block;
+		text-align: left;
+		margin-left: 10px;
+	}
+	
+}
 

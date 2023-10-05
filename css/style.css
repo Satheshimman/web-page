@@ -96,6 +96,10 @@ nav{
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px 10px;
 	
 }	
 	
@@ -289,9 +293,13 @@ color:white;
 	padding:0px 20px;
 }
 
+.sec-3-con ul li{
+	text-align: start;
+}
 .sec-3-con p{
 	padding:20px 0px;
 	font-size:20px;
+	text-align: start;
 }
 
 .sec-3-con h3{
