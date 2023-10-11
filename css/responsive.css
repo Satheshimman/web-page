@@ -29,7 +29,7 @@
 		display: none;
 	}
 	.navsm p{
-		
+		display: none;
 		text-align: center;
 	}
 	.logo{
@@ -42,7 +42,7 @@
 		display:block;
 		position:absolute;
 		right:15px;
-		top:42px;
+		top:37px;
 	}
 	
 	.con-od-2{
@@ -325,11 +325,13 @@
 		display: none;
 	}
 	.navsm{
-		display: block;
+		display: none;
 	}
 	.navsm p{
 		
 		text-align: center;
+		display: none;
+		
 	}
 	.logo{
 		
