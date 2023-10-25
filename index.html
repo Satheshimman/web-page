@@ -25,14 +25,14 @@
 			data-aos-easing="linear"
 			data-aos-duration="1500" id="resnav">
 				<ul class=" col-12 navroww " >
-					<li><a href="#sec-2">Home</a></li>
-					<li><a href="#sec-3">About</a></li>
-					<li><a href="#sec-4">Courses</a></li>
-					<li><a href="#sec-5">Trainers</a></li>
-					<li><a href="#sec-7">Events</a></li>
-					<li><a href="#sec-8">Pricing</a></li>
-					<li><a href="#sec-10">Dropdown</a></li>
-					<li><a href="#sec-9">Contact</a></li>
+					<li onClick="sathesh()"><a href="#sec-2">Home</a></li>
+					<li onClick="sathesh()"><a href="#sec-3">About</a></li>
+					<li onClick="sathesh()"><a href="#sec-4">Courses</a></li>
+					<li onClick="sathesh()"><a href="#sec-5">Trainers</a></li>
+					<li onClick="sathesh()"><a href="#sec-7">Events</a></li>
+					<li onClick="sathesh()"><a href="#sec-8">Pricing</a></li>
+					<li onClick="sathesh()"><a href="#sec-10">Dropdown</a></li>
+					<li onClick="sathesh()"><a href="#sec-9">Contact</a></li>
 					<div class="navsm">
 						<p>Get Started</p>
 					</div>
@@ -608,7 +608,7 @@
 	   <script>
 		   var menu=document.getElementById("menu");
 
-			console.log("dskdh");
+			
 				var menulist=document.getElementById("list");
 				menu.addEventListener("click",()=>{
 				
@@ -616,7 +616,14 @@
 					menulist.classList.toggle("showmenu");
 				
 	 })
+
+	 function sathesh(){
+		menulist.classList.add("showmenu");
+		console.log("sathesh")
+	 }
 	   </script>
+
+
 
 </body>
 
