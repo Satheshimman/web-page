@@ -244,7 +244,9 @@ text-decoration:none;
 	padding:80px 0;
 	margin: 50px 0px;
 }
-
+.sec-2-content{
+	padding-top: 60px;
+}
 .btn{
 	
 	border:1px solid white;
@@ -282,9 +284,11 @@ color:white;
 
 
 /* section3 */
-
 #sec-3{
-	margin:50px 0px;
+	margin: 50px 0px;
+}
+.sec-3-content{
+	padding-top: 120px;
 }
 .sec-3-img img{
 	width:100%;
@@ -319,6 +323,9 @@ color:white;
 	font-size:20px;
 	text-align:center;
 }
+.sec-4-content{
+	padding-top: 80px;
+}
 #sec-4 h1{
 	color:#64cf21a6;
 	
@@ -332,6 +339,10 @@ color:white;
 	padding:40px 0px;
 	
 	
+}
+
+.sec-5-content{
+	padding-top: 70px;
 }
 
 
@@ -511,7 +522,9 @@ padding:20px 0;}
 #sec-6{
 	padding:20px 0px;
 }
-
+.sec-6-content{
+	padding-top: 80px;
+}
  .sec-6-courses h1{
 	padding:20px 0px;
 }
@@ -544,7 +557,9 @@ padding:20px 0;}
 #sec-7{
 	padding:40px 0px;
 }
-
+.sec-7-content{
+	padding-top: 70px;
+}
 .sec-6-img img{
 	width:100%;
 }
@@ -616,10 +631,11 @@ padding:20px 0;}
 	padding:50px 0px;
 }
 .sec-8{
-	border:1px solid #00000036; 
-	
+	border:1px solid #00000036; 	
 }
-
+.sec-8-content{
+	padding-top: 90px;
+}
 .sec-8-img img{
 	width:100%;
 }
@@ -649,10 +665,11 @@ padding:20px 0;}
 
 #sec-9{
 	
-	padding:20px;
-	
+	padding:20px;	
 }
-
+.sec-9-contentt{
+	padding-top: 90px;
+}
 .sec-9-content-1 ul li{
 	padding:9px 0px;
 	
